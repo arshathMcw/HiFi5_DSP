@@ -1,6 +1,5 @@
 ## Fixed and Floating point numbers
 * Computer need to represent numbers that are not in integer
-* 
 ![alt text](image-1.png)
 * But the above does not represent the 2.8 maybe it make closer (2.8125)
 * And also we allocate place for fraction we reduced our dynamic range
@@ -19,6 +18,7 @@
 ![alt text](image-4.png)
 
 ## FIR program
+* Resource : [link](https://sestevenson.wordpress.com/implementation-of-fir-filtering-in-c-part-1/)
 * To run a pcm file : ffplay -f s16le -ar 44100 -ac 1 sound.pcm
 * To convert wav file into pcm : ffmpeg -i mono_output.wav -f s16le -acodec pcm_s16le sound.pcm
 * To get information of the wav signal : ffmpeg -i mono_output.wav
